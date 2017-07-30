@@ -11,7 +11,7 @@
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>Yoanm repository for Kodi</summary>
+            <summary>Yoanm repository for Kodi.</summary>
             <description>Yoanm repository for Kodi</description>
             <platform>all</platform>
     </extension>
