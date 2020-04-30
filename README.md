@@ -12,15 +12,11 @@ Use https://github.com/Twilight0/Repository-Bootstrapper for generation
    
    TODO : Check if bumping repository version is mandatory ?!
 
+N.B.: Same procedure works for addons updates
+
 ## New repository version process
  - Replace current version on `YoanmRepo/addon.xml` by the new one. 
-   
-   Example with vi and version `1.1.0` to `1.2.0` : `:%s/1\.1\.0/1.2.0/g`
-
-- Replace current version on `_tools/config.ini` by the new one.
-   
-   Example with vi and version `1.1.0` to `1.2.0` : `:%s/1\.1\.0/1.2.0/g`
-
-- Run `./generate_repo.py`. 
+ - Replace current version on `_tools/config.ini` by the new one.
+ - Run `./generate_repo.py`. 
   
   :warning: Command must be executed from `_tools` directory else it does not work ! :warning:

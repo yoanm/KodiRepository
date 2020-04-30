@@ -1,6 +1,6 @@
-# Explicitly mark required folders as not ignored
-!_tools
-!_repo
-!YoanmRepo
 # Ignore all others files by default (allow to link addons folder for repo generation but not adding it after)
-**
+/* 
+# BUT explicitly mark required folders as not ignored
+!/_repo 
+!/_tools 
+!/YoanmRepo
