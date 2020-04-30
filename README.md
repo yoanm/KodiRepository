@@ -8,7 +8,7 @@ Use https://github.com/Twilight0/Repository-Bootstrapper for generation
    
    Example with `skin.unity.yo` addon : `ln -s ../skink.unity.yo .`
 
-- Create a new version of YoanmRepo by following procedure below.
+- Create a new version of YoanmRepo using process described below.
    
    TODO : Check if bumping repository version is mandatory ?!
 
